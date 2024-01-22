@@ -7,14 +7,93 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 
 </head>
-<body>
+<body class="font-manrope">
     <header>
+        <nav>
 
+        </nav>
+        <div class="mx-5 my-2">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </div>
     </header>
     <main>
-
+        <section>
+            <div class="flex flex-col">
+                <hr class="border-t border-dashed border-gray-300 mx-5 my-4">
+                <h1 class="text-4xl font-extrabold text-[#131318] text-center mt-8">Professional Hockeys Club</h1>
+                <p class="text-[#13131899] font-medium text-center my-5 justify-around lg:px-80">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                <hr class="border-t border-dashed border-gray-300 mx-5 my-4">
+            </div>
+            <div class="flex flex-col lg:flex-row justify-between gap-16">
+                <div>
+                    <div class="text-center my-6">
+                        <div class="radial-progress text-primary text-red-500" style="--value:87;" role="progressbar"><span class="text-[#131318] text-lg font-extrabold">87%</span></div>
+                    </div>
+                    <h3 class="text-xl text-[#131318] font-semibold text-center">Prayer Facility</h3>
+                    <p class="text-[#13131863] text-base text-center font-normal my-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="text-center my-6">
+                        <div class="radial-progress text-primary text-green-500" style="--value:95;" role="progressbar"><span class="text-[#131318] text-lg font-extrabold">95%</span></div>
+                    </div>
+                    <h3 class="text-xl text-[#131318] font-semibold text-center">Experienced Coach</h3>
+                    <p class="text-[#13131863] text-base text-center font-normal my-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="text-center my-6">
+                        <div class="radial-progress text-primary text-yellow-500" style="--value:90;" role="progressbar"><span class="text-[#131318] text-lg font-extrabold">90%</span></div>
+                    </div>
+                    <h3 class="text-xl text-[#131318] font-semibold text-center">Senior Player</h3>
+                    <p class="text-[#13131863] text-base text-center font-normal my-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="text-center my-6">
+                        <div class="radial-progress text-primary text-blue-500" style="--value:80;" role="progressbar"><span class="text-[#131318] text-lg font-extrabold">80%</span></div>
+                    </div>
+                    <h3 class="text-xl text-[#131318] font-semibold text-center">Prayer Facility</h3>
+                    <p class="text-[#13131863] text-base text-center font-normal my-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
